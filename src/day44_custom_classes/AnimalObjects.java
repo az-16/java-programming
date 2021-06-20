@@ -2,7 +2,7 @@ package day44_custom_classes;
 
 public class AnimalObjects {
     public static void main(String[] args) {
-        Animal animal = new Animal ();
+        Animal animal = new Animal (); //why here working? B/c it is by default
         System.out.println(animal.type);
         animal.eat();
         animal.eat("grass");
